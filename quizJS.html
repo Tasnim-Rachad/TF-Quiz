@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<!-- https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_photo3&stacked=h-->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de révision JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="entete">
+        <h1>ICS4U Travail Formatif</h1>
+        <h2>Quiz de révision JavaScript</h2>
+        <h3>Go go gadget.</h3>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <button id="btnQuiz">Débuter le quiz</button>
+        </section>
+
+        <section id="quiz" class="cache">
+            <form id="formQuiz">
+                <div id="questions">
+                    <div class="question">
+                        <p><strong>Question 1 : </strong><span id="q1"></span></p>
+                        <input type="text" id="rep1" name="rep1" placeholder="..." autocomplete="off">
+                    </div>
+                    <div class="question">
+                        <p><strong>Question 2 : </strong><span id="q2"></span></p>
+                        <input type="text" id="rep2" name="rep2" placeholder="..." autocomplete="off">
+                    </div>
+                    <div class="question">
+                        <p><strong>Question 3 : </strong><span id="q3"></span></p>
+                        <input type="text" id="rep3" name="rep3" placeholder="..." autocomplete="off">
+                    </div>
+                    <div class="question">
+                        <p><strong>Question 4 : </strong><span id="q4"></span></p>
+                        <input type="text" id="rep4" name="rep4" placeholder="..." autocomplete="off">
+                    </div>
+                    <div class="question">
+                        <p><strong>Question 5 : </strong><span id="q5"></span></p>
+                        <input type="text" id="rep5" name="rep5" placeholder="..." autocomplete="off">
+                    </div>
+                </div>
+
+                <button type="submit" id="corriger">
+                    Calculer ma note
+                </button>
+            </form>
+
+            <p id="affichageNote"></p>
+
+            <button id="nouveauQuiz" class="cache">
+                Nouveau quiz !
+            </button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

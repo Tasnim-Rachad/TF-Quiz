@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('quizbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: #222;
+}
+
+#entete {
+    text-align: center;
+    padding: 30px 16px;
+    transition: all 0.7s ease;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 32px;
+    line-heigt: 1.5;
+    margin-bottom: 10px;
+}
+
+#entete p {
+    font-family: Bodoni MT;
+    font-size: 20px;
+    color: linear-gradient(180deg,
+        rgba(0, 0, 0, 1.0)65%
+        rgba(255, 255, 255)35%);
+    font-weight: bold;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+#accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 12px 9px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+    color: ghostwhite; /*Boo mon code fait peur*/
+    font-size: 20px;
+    transition: background-color 0.2s ease;
+}
+
+
+#btnQuiz {
+    font-size: 22px;
+    padding: 15px 24px;
+    font-family: Georgia;
+}
+
+.question {
+    background-color: white;
+    padding: 26px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.question p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.question input {
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#affichageNote {
+    color: #c62828;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#nouveauQuiz {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #18864b;
+}
+
+#nouveauQuiz:hover {
+    background-color: #106536;
+}
+
+.cache {
+    display: none;
+}
+
+#entete {
+    padding-top: 10px;
+}
+
+#accueil {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
